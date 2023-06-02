@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simulator for elementary school</string>
+    <string name="maths">Maths</string>
+    <string name="and">and</string>
+    <string name="rus">Russian language</string>
+    <string name="sch">" Count"</string>
+    <string name="slo">vocabulary words</string>
+    <string name="otv">" Answer"</string>
+    <string name="ver">" "</string>
+    <string name="ver2">" "</string>
+    <string name="example">" "</string>
+    <string name="example2">Choose the right answer</string>
+</resources>

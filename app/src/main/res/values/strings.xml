@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Тренажёр для начальной школы</string>
+    <string name="maths"><b><i>Математика</i></b></string>
+    <string name="and"><b><i>и</i></b></string>
+    <string name="rus"><b><i>Русский язык</i></b></string>
+    <string name="sch"><i>Счёт</i></string>
+    <string name="slo"><i>Словарные слова</i></string>
+    <string name="otv"><b>Ответить</b></string>
+    <string name="ver"></string>
+    <string name="ver2"></string>
+    <string name="example"><i></i></string>
+    <string name="example2"><i>Выбери правильный ответ</i></string>
+</resources>
