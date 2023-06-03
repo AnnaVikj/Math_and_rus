@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
         android:orientation="vertical">
 
         <TextView
@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/example2"
-        android:layout_marginBottom="20dp"
+
         android:textColor="#000000"
         android:typeface="serif"
         android:textSize="25dp"
@@ -60,14 +60,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="#AC5C5C"
-            android:padding="10dp"
             android:layout_weight="1"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
         <RadioButton
             android:text=""
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
             android:id="@+id/two"
-            android:padding="10dp"
             android:buttonTint="#AC5C5C"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -78,7 +76,6 @@
             android:id="@+id/three"
             android:buttonTint="#AC5C5C"
             android:layout_width="match_parent"
-            android:padding="10dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
         <RadioButton
@@ -86,7 +83,6 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
             android:id="@+id/four"
             android:buttonTint="#AC5C5C"
-            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
@@ -96,7 +92,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
         android:textColor="@color/white"
         android:id="@+id/answer_button"
         android:backgroundTint="#AA3333"

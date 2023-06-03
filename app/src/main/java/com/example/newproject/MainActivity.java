@@ -1,20 +1,24 @@
 package com.example.newproject;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.room.Room;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.os.Bundle;
 
+import com.example.newproject.data.WordBase;
 import com.example.newproject.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 ActivityMainBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());

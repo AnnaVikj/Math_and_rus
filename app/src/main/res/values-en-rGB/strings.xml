@@ -11,4 +11,5 @@
     <string name="ver2">" "</string>
     <string name="example">" "</string>
     <string name="example2">Choose the right answer</string>
+    <string name="score">Score: </string>
 </resources>

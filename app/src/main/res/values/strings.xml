@@ -10,4 +10,5 @@
     <string name="ver2"></string>
     <string name="example"><i></i></string>
     <string name="example2"><i>Выбери правильный ответ</i></string>
+    <string name="score">Результат: </string>
 </resources>

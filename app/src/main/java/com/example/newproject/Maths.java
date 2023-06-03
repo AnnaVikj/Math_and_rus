@@ -11,6 +11,7 @@ import com.example.newproject.databinding.ActivityMathsBinding;
 
 public class Maths extends AppCompatActivity {
 ActivityMathsBinding binding;
+
 int answer = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +23,11 @@ int answer = 0;
     }
 
     private void two_number() {
-        int a = (int) (Math.random() * 1000);
-        int b = (int) (Math.random() * 1000);
+        binding.input.getText().clear();
+
+
+        int a = (int) (Math.random() * 100);
+        int b = (int) (Math.random() * 100);
         int sign = (int) (Math.random() * 2);
         if (sign % 2 == 0){
             answer = a + b;
