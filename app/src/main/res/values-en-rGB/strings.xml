@@ -12,4 +12,13 @@
     <string name="example">" "</string>
     <string name="example2">Choose the right answer</string>
     <string name="score">Score: </string>
+    <string name="verno">Right!</string>
+    <string name="notright">Wrong! Try again</string>
+    <string name="z">You did not choose anything</string>
+    <string name="q">empty field</string>
+    <string name="cat1">Слова от А-В</string>
+    <string name="cat2">Слова от В-Е</string>
+    <string name="cat3">Слова от Ж-М</string>
+    <string name="cat4">Слова от М-Я</string>
+    <string name="cat5">Слова от Р-Я</string>
 </resources>

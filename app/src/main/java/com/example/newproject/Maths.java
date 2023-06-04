@@ -47,7 +47,7 @@ int answer = 0;
             String input = binding.input.getText().toString();
             if(!input.isEmpty()) {
                 if (String.valueOf(answer).equals(input)) {
-                    binding.verdict.setText("Верно!");
+                    binding.verdict.setText(getResources().getString(R.string.verno));
                     binding.verdict.setTextColor(Color.GREEN);
                     Handler handler = new Handler();
                     handler.postDelayed(new Runnable() {
@@ -58,10 +58,10 @@ int answer = 0;
                     }, 1000);
                 } else {
                     binding.verdict.setTextColor(Color.RED);
-                    binding.verdict.setText("Неправильно! Попробуй снова");
+                    binding.verdict.setText(getResources().getString(R.string.notright));
                 }
             }else{
-                Toast.makeText(this, "Пустое поле", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getResources().getString(R.string.q), Toast.LENGTH_SHORT).show();
             }
         });
 

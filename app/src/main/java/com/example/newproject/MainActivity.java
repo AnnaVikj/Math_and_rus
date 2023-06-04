@@ -31,7 +31,7 @@ ActivityMainBinding binding;
         });
 
         binding.words.setOnClickListener(view -> {
-            Intent intent = new Intent(this, DictationWords.class);
+            Intent intent = new Intent(this, Choice.class);
             intent.putExtra("Words", "Dictonary_words");
             startActivity(intent);
         });

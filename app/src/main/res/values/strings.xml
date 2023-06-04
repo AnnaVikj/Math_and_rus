@@ -11,4 +11,13 @@
     <string name="example"><i></i></string>
     <string name="example2"><i>Выбери правильный ответ</i></string>
     <string name="score">Результат: </string>
+    <string name="verno">Верно!</string>
+    <string name="notright">Неправильно! Попробуй снова</string>
+    <string name="z">Вы ничего не выбрали</string>
+    <string name="q">Пустое поле</string>
+    <string name="cat1">Слова от А-В</string>
+    <string name="cat2">Слова от В-Е</string>
+    <string name="cat3">Слова от Ж-М</string>
+    <string name="cat4">Слова от М-Р</string>
+    <string name="cat5">Слова от Р-Я</string>
 </resources>
